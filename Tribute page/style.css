@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+#hr1{
+    position: absolute;
+    right: 63%;
+    top: 40px;
+    width:36%;
+    height:50px;
+    z-index: 1;
+}
+
+#hr2{
+    position: absolute;
+    left: 63%;
+    top: 40px;
+    width:36%;
+    height:50px;
+    z-index: 1;
+}
+
+#name{
+    position: absolute;
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #ffff;
+    font-size: 20px;
+    z-index: 1;
+    opacity: 93%;
+    left: 40%;
+}
+
+#years{
+    position: absolute;
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #ffff;
+    font-size: 20px;
+    z-index: 1;
+    opacity: 93%;
+    left: 45%;
+    margin-top: 65px;
+}
+
+.bottom{
+    background-color: #18218A;
+    width: auto;
+    height: 450px;
+    z-index: 3;
+}
+
+.desc{
+    position: absolute;
+    background-color: #FFD13D;
+    height: 400px;
+    width: 700px;
+    top: 150px;
+    left: 250px;
+    z-index: 1;
+    padding: 50px;
+    border-radius: 10%;
+    opacity: 93%;
+}
+
+.para{
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.image{
+    position:absolute;
+    height: 290px;
+    width: 235px;
+    top: 260px;
+    right: 250px;
+    background-image: url("https://i.pinimg.com/236x/f8/f8/fc/f8f8fcb291a6fe6933a50bd9fea9026c.jpg");
+    z-index: 2;
+    border-radius: 10%;
+}
+
+.newpage{
+    margin-top: 26%;
+}
+
+#bottom2{
+    position: absolute;
+    height: 190px;
+    width: 100%;
+    margin-top: 200px;
+    background-color: black;
+    z-index: 1;
+}
+
+#secdesc{
+    position: absolute;
+    background-color: #FFD13D;
+    height: 400px;
+    width: 700px;
+    top: 700px;
+    right: 250px;
+    z-index: 2;
+    padding-left: 95px;
+    padding-top: 50px;
+    padding-right: 40px;
+    border-radius: 10%;
+    opacity: 93%; 
+}
+
+#para2{
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#image2{
+    position:absolute;
+    height: 290px;
+    width: 235px;
+    top: 810px;
+    left: 250px;
+    background-image: url("https://i.pinimg.com/236x/18/aa/95/18aa95e74f944cddcce06ffcb6479ab2.jpg");
+    z-index: 3;
+    border-radius: 10%;
+}
